@@ -1,6 +1,5 @@
 import React, { Component, useState } from 'react';
 import './ExpenseTracker.css';
-import AddNewTranstion from './AddNewTranstion';
 
 const ExpenseTracker = () => {
     const [transactions, settransactions] = useState<any[]>([])
@@ -109,4 +108,4 @@ const ExpenseTracker = () => {
 }
 
 
-export default ExpenseTracker
+export default ExpenseTracker;
